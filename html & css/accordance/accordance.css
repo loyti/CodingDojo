@@ -1,0 +1,240 @@
+body {
+  background-color: #fff;
+}
+.body-head {
+  display: inline-block;
+  list-style-type: none;
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+}
+.body-head-wrapper {
+  display: inline;
+  list-style-type: none;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+}
+body-menu-wrapper {
+  display: relative;
+  list-style-type: none;
+  width: 100%;
+  height: 100%;
+  padding; 10px;
+}
+.body-menu {
+  list-style-type: none;
+  background: linear-gradient(#eee, #bbb);
+  display: inline-block;
+  width: 100;
+  padding: 10px;
+  height: 100%;
+}
+.body-menu a{
+  list-style-type: none;
+  text-align: left;
+  margin: 0;
+  padding: 10px;
+  display: inline-block;
+  color: #000;
+  text-decoration: none;
+  width: 100%;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  overflow: hidden;
+  float: left;
+  text-decoration: none;
+  display: relative;
+  width: 100%
+}
+.ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  overflow: hidden;
+  float: left;
+  text-decoration: none;
+  display: relative;
+  width: 100%
+}
+li {
+  list-style-type: none;
+  display: inline;
+  padding: 5px;
+}
+.li {
+  list-style-type: none;
+  float: left;
+  padding: 0px 10px;
+  text-decoration: none;
+  display: relative;
+}
+ul:hover,li:hover,li a:hover {
+  list-style-type: none;
+  color:  #40e0d0;
+  text-decoration: none;
+}
+cta-body-header {}
+.cta-body-header {
+  display: inline-block;
+  padding: 5px;
+  background-color: #eee;
+  width: 100%;
+}
+.cta-body-header h2 {
+  color: #aaa;
+  background-color: #eee;
+  display: inline;
+  padding: 5px;
+  width: 100%;
+}
+cta-menu-wrapper {
+  
+}
+.cta-menu-wrapper {
+  width: 100%;
+}
+cta-menu {
+  list-style-type: none;
+  display: inline-block;
+  width: 100%;
+}
+.cta-menu {
+  list-style-type: none;
+  text-align: left;
+  margin: 0;
+  padding: 0px;
+  width: 100%;
+  display: relative;
+  background: linear-gradient(#aaa, #36454F);
+}
+.cta-menu a{
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+  display: inline;
+  color: #40e0d0;
+  text-decoration: none;
+}
+.cta-menu a:hover{
+  list-style-type: none;
+  text-align: right;
+  margin: 0;
+  padding: 0px;
+  display: inline;
+  color: #fff;
+}
+input[type="text"] {
+  width: 200px;
+  height: 20px;
+  padding-right: 50px;
+  float: right;
+  display: inline-block;
+}
+input[type="search"] {
+  float: right;
+  margin-left: -50px;
+  height: 25px;
+  width: 50px;
+  color: white;
+  border: 0;
+  display: inline-block;
+}
+search-button {
+  display: block;
+}
+.search-button {
+  float: right;
+  display: block;
+}
+.browse-button {
+  float: right;
+  vertical-align: center;
+  color: #fff;
+  background-color: #000050;
+  padding: 5px 30px 5px 5px;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+cta-body {
+  margin-top: 0;
+  columns: 4;
+  display: inline;
+  vertical-align: top;
+}
+.cta-body{
+  padding-top: 0px;
+  display: inline-block;
+  columns: 4;
+  margin-top: 0px;
+  vertical-align: top;
+}
+footer-menu-head {
+  
+}
+.footer-menu-head {
+  color: #000;
+  text-align: left;
+  padding: 5px;
+  
+}
+footer-menu {
+}
+.footer-menu-wrapper {
+  columns: 6;
+  margin: 0;
+  padding: 5px;
+}
+.footer-menu {
+  background-color: #fff;
+  color: #aaa;
+  display: block;
+}
+.footer-menu-head {
+  color: #000;
+  text-align: left;
+}
+.footer {
+  background-color: #eee;
+  color: #aaa;
+  float: left;
+  padding: 2px 2px 2px 2px;
+  width: 100%;
+}
+.cta-button {
+  width: 100%;
+  text-align: center;
+  color: #40e0d0;
+  background-color: #000050;
+  animation-name: clickMe;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  border-radius: 5px;
+}
+.cta-button:hover {
+  color: #daa520;
+  animation-name: clickMe2;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+@keyframes clickMe {
+    0%   {background-color:#000050;}
+    50%  {background-color:#eee;}
+    100% {background-color:#000050;}
+}
+@keyframes clickMe2 {
+    0%   {background-color:#fff;}
+    50%  {background-color:#fff;}
+    100% {background-color:#fff;}
+}
+.video-preview {
+  font-weight: bold;
+  text-align: center;
+}
+.video-preview p {
+  font-weight: normal;
+  text-align: left;
+}

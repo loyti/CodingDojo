@@ -1,0 +1,102 @@
+body {
+  background-color: #eeeeee;
+}
+.body-header {
+  background-color: #000050;
+  color:  #fff;
+  padding: 10px 10px 10px 10px;
+  text-align: left;
+}
+.ul .body-menu {
+  background-color: #cccccc;
+}
+.body-menu {
+  background-color: #cccccc;
+}
+.body-menu a{
+  text-align: right;
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+  display: block;
+  color: #fff;
+  background-color: #cccccc
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  overflow: hidden;
+  float: right;
+}
+li {
+  float: left;
+  padding: 0px 5px;
+}
+li a:hover {
+  background-color: #000050;
+  color:  #fff; 
+}
+.body-info {
+  padding: 20px 20px 20px 20px;
+}
+.marquee {
+  background-image:(url:"");
+  color: #fff;
+  background-color: #aaaaaa;
+  padding: 20px 20px 20px 20px;
+}
+ctaMoreInfo {
+  padding-top: 10px;
+  columns 3;
+}
+.ctaMoreInfo {
+  columns: 3;
+  padding: 0px 10px 25px 10px;
+}
+/*.Services {
+  padding-bottom: 10px;
+}
+.Projects {
+  padding-bottom: 10px;
+}*/
+.body-bottom {
+  float: center;
+  columns: 3;
+  padding: 10px 10px 25px 10px;
+}
+ctaGoal {
+}
+.goals-header {
+  text-align: center;
+}
+.testimonial-title {
+  text-align: center;
+}
+.testimonial-text {
+  text-align: left;
+}
+.testimonial-author {
+  text-align: center;
+}
+.testimonial-role {
+  text-align: center;
+}
+.footer-menu {
+  float: left;
+  background-color: #cccccc;
+  text-align: center;
+}
+.footer-menu a{
+  text-align: left;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: block;
+  color: #fff;
+  background-color: #cccccc
+}
+button {
+  width: 100%;
+  text-align: center;
+}
